@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="top-navbar">
+        <a class="movies" href="index.html">Flixforall: Reviews</a>
+    </div>
+    <div class="reviews-for-container">
+        <h1 id="reviews-for">Reviews for: </h1>
+        <h3 id="movie-title"></h3>
+    </div>
+    <div class="new-review-container">
+        <h3>Write a Review</h3>
+        <p>
+            <input type="text" id="review-input" placeholder="Review..."></input>
+        </p>
+        <p>
+            <input type="text" id="user-input" placeholder="User..."></input>
+        </p>
+        <a id="add-review" href="#">💾</a>
+    </div>
+    <div class="no-reviews">
+        <h1 id="no-reviews-message" hidden>No Reviews</h1>
+    </div>
+    <section id="reviews-container" style="color: white; font-size: xx-large;"></section>
+   
+    <script src="./reviews.js"></script>
+</body>
+</html>

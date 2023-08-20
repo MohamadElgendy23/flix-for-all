@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: white;
+}
+
+.top-navbar {
+    overflow: hidden;
+    background-color: rgb(60, 61, 61);
+    padding: 10px;
+    border-radius: 19px;
+}
+
+.top-navbar a[class=movies] {
+    color: white;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-style: oblique;
+    float: left;
+ }
+
+ .top-navbar a[class=prev-page-nav] {
+    position: relative;
+    top:-2px;
+    left: -215px;
+    float: left;
+    color: white;
+    font-size: small;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+ .top-navbar a[class=next-page-nav] {
+    position: relative;
+    top:-2px;
+    left: -3px;
+    float: right;
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+
+.search-container {
+    float: right;
+    padding-top: 25px;
+}
+
+#search-input {
+    border-radius: 15px;
+    height: 28px;
+    width: 230px;
+    position: relative;
+    right: -1px;
+    top: 5px;
+    font-size: large;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+#search-input-other {
+    border-radius: 15px;
+    height: 28px;
+    width: 200px;
+    position: relative;
+    right: 21px;
+    top: 5px;
+    font-size: medium;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+
+.column-container {
+    float: left;
+    width: 25%;
+    padding: 15px 10px;
+}
+
+.movie-container {
+    border-radius: 20px;
+    box-shadow: -5px 5px rgb(73, 71, 71);
+    background-color: rgb(36, 35, 35);
+    padding: 15px;
+    width: 350px;
+    height: 425px;
+    text-align: center;
+    font-size: small;
+}
+
+.thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.reviews {
+    position: relative;
+    top: -11px;
+    font-size:medium;
+    color: blue;
+}
+
+.reviews-for-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.reviews-for-container h3 {
+    position: relative;
+    top: -10px;
+    font-style: italic;
+    font-size: larger;
+}
+
+.new-review-container {
+    position: relative;
+    left: 710px;
+    width: 370px;
+    height: 210px;
+    padding-top: 15px;
+    box-shadow: -5px 5px rgb(73, 71, 71);
+    background-color: rgb(36, 35, 35);
+    border-radius: 19px;
+    color: white;
+    text-align: center;
+}
+
+.new-review-container input {
+    border-radius: 15px;
+    height:28px;
+    width: 245px;
+    background-color: rgb(36, 35, 35);
+    font-size: large;
+    color: white;
+}
+
+.no-reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+}
+
+section[id=reviews-container] {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    row-gap: 30px;
+    padding-top: 75px;
+    padding-left: 403px;
+}
+
+.review-container {
+    border-radius: 20px;
+    box-shadow: -5px 5px rgb(73, 71, 71);
+    background-color: rgb(36, 35, 35);
+    padding-top: 35px;
+    padding-right: 8px;
+    width: 280px;
+    height: 200px;
+    text-align: center;
+    font-size: large;
+}
+
+.review-tools a{
+    text-decoration: none;
+}
+
+#update-review-input {
+    border-radius: 15px;
+    height: 28px;
+    width: 200px;
+    font-size: medium;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+#update-user-input {
+    border-radius: 15px;
+    height: 28px;
+    width: 200px;
+    font-size: medium;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
