@@ -1,5 +1,15 @@
 # Flixforall: All-In-One Movie App
 
+This project is full-stack, meaning both client and server are involved. Feel free to download, run, and learn something new! :)
+
+NOTE: Netlify didn't allow me to deploy this application due to the way the app is structured (weird I know) so in order to run it clone the repo then do a npm install in order to install all dependencies on your machine. Then you can run on your localhost and browser. If that doesn't work I am sure there are online resources for how to run on localhost after cloning. 
+
+>Languages: JavaScript, HTML, CSS
+>Environments: Node.js
+>Frameworks: Express.js
+>Databases: MongoDB
+>Helpful Tools: Chrome DevTools, Postman, Insomnia (when needed)
+
 Flixforall: An all-in-one movie application for your enjoyement needs!
 Visually appealing application featuring fully responsive pages (accessed by <- and -> arrows) where users can search any movie they want to watch and the corresponding movie(s) will be displayed in a grid manner (column X row) based on if the searched movie is contained in the title regardless if perfect match.
 Users can also add reviews, update reviews, and delete reviews for each movie, and said reviews and actions are saved for the lifetime of the application. 
