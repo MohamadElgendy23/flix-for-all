@@ -5,9 +5,13 @@ This project is full-stack, meaning both client and server are involved. Feel fr
 NOTE: Was having trouble deploying correctly on Netlify due to the way the app is structured and caching (weird I know) so in order to run it simply clone the repo then do an npm install in order to install all dependencies on your machine. Then do an npm run serverStart to start the server. Then you can run on your localhost and whatever browser you are using.
 
 >Languages: JavaScript, HTML, CSS
+
 >Environments: Node.js
+
 >Frameworks: Express.js
+
 >Databases: MongoDB
+
 >Helpful Tools: Chrome DevTools, Postman, Insomnia (when needed)
 
 Flixforall: An all-in-one movie application for your enjoyement needs!
