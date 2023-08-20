@@ -12,7 +12,7 @@ NOTE: Was having trouble deploying correctly on Netlify due to the way the app i
 
 >Databases: MongoDB
 
->Helpful Tools: Chrome DevTools, Postman, Insomnia (when needed)
+>Helpful Tools: Chrome DevTools, Postman, Insomnia (personal interest)
 
 Flixforall: An all-in-one movie application for your enjoyement needs!
 Visually appealing application featuring fully responsive pages (accessed by <- and -> arrows) where users can search any movie they want to watch and the corresponding movie(s) will be displayed in a grid manner (column X row) based on if the searched movie is contained in the title regardless if perfect match.
