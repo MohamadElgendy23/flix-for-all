@@ -2,7 +2,7 @@
 
 This project is full-stack, meaning both client and server are involved. Feel free to download, run, and learn something new! :)
 
-NOTE: Netlify didn't allow me to deploy this application due to the way the app is structured (weird I know) so in order to run it clone the repo then do a npm install in order to install all dependencies on your machine. Then you can run on your localhost and browser. If that doesn't work I am sure there are online resources for how to run on localhost after cloning. 
+NOTE: Was having trouble deploying on Netlify due to the way the app is structured (weird I know) so in order to run it clone the repo then do an npm install in order to install all dependencies on your machine. Then do an npm run serverStart to start the server. Then you can run on your localhost and whatever browser you are using.
 
 >Languages: JavaScript, HTML, CSS
 >Environments: Node.js
