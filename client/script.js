@@ -80,6 +80,24 @@ function handleDisplayMovie(movie) {
   movieReviews.innerHTML = "Reviews";
   movieReviews.href = `reviews.html?id=${movie.id}&title=${movie.title}`;
 
+  const movieStarRating = document.createElement("div");
+  movieStarRating.setAttribute("class", "movieRating");
+  const star1 = document.createElement("span");
+  star1.setAttribute("class", "fa fa-star");
+  const star2 = document.createElement("span");
+  star2.setAttribute("class", "fa fa-star");
+  const star3 = document.createElement("span");
+  star3.setAttribute("class", "fa fa-star");
+  const star4 = document.createElement("span");
+  star4.setAttribute("class", "fa fa-star");
+  const star5 = document.createElement("span");
+  star5.setAttribute("class", "fa fa-star");
+  movieStarRating.appendChild(star1);
+  movieStarRating.appendChild(star2);
+  movieStarRating.appendChild(star3);
+  movieStarRating.appendChild(star4);
+  movieStarRating.appendChild(star5);
+
   const movieContainer = document.createElement("div");
   movieContainer.setAttribute("class", "movie-container");
   movieContainer.appendChild(movieCenter);
@@ -90,6 +108,7 @@ function handleDisplayMovie(movie) {
       movie.overview ? movie.overview : "N/A"
     } </p> <br/>`;
     movieContainer.appendChild(movieReviews);
+    movieContainer.appendChild(movieStarRating);
   };
   movieContainer.onmouseleave = () => {
     movieContainer.innerHTML = originalHTML;

@@ -5,6 +5,7 @@ const ReviewSchema = new Schema({
   movieId: { type: Number, required: true },
   user: { type: String, required: true },
   content: { type: String, required: true },
+  rating: { type: Number, required: true },
 });
 
 const Reviews = mongoose.model("Reviews", ReviewSchema);

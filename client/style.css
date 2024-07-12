@@ -59,7 +59,6 @@ h3 {
 
 .movies:hover {
     font-weight: bold;
-    background-color: rgb(0, 255, 60);
 }
 
 .search-container {
@@ -119,6 +118,23 @@ h3 {
     top: -11px;
     font-size:medium;
     color: darkgreen;
+}
+
+.movieRating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fa-star {
+    font-size: xx-large;
+    width: 300px;
+}
+
+.checked {
+    color: rgb(255, 81, 0);
 }
 
 .reviews-for-container {

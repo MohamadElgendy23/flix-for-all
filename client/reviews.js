@@ -10,6 +10,7 @@ displayTitle.innerText = movieTitle;
 
 const reviewInput = document.getElementById("review-input");
 const userInput = document.getElementById("user-input");
+const 
 
 const noReviewsMessage = document.getElementById("no-reviews-message");
 
@@ -86,6 +87,7 @@ async function createReview() {
       movieId: movieId,
       user: userInput.value,
       content: reviewInput.value,
+
     };
     await fetch(API_PATH + "new", {
       method: "POST",
