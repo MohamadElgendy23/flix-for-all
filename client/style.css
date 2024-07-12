@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+  }  
+
 body {
-    background-color: rgb(26, 26, 26);
+    background-color: #1f3bd8;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 h3 {
@@ -13,9 +18,10 @@ h3 {
 
 .top-navbar {
     overflow: hidden;
-    background-color: rgb(60, 61, 61);
+    background-color: rgb(138, 195, 195);
     padding: 10px;
     border-radius: 19px;
+    width: 100vw;
 }
 
 .top-navbar a[class=movies] {
@@ -51,6 +57,28 @@ h3 {
     text-decoration: none;
  }
 
+.movies {
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    @keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+}
+
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-60px)
+    }
+  }
+
 .search-container {
     float: right;
     padding-top: 25px;
@@ -80,7 +108,6 @@ h3 {
     color: white;
 }
 
-
 .column-container {
     float: left;
     width: 25%;
@@ -90,7 +117,7 @@ h3 {
 .movie-container {
     border-radius: 20px;
     box-shadow: -5px 5px rgb(73, 71, 71);
-    background-color: rgb(36, 35, 35);
+    background-color: #d98a0a;
     padding: 15px;
     width: 350px;
     height: 425px;
@@ -108,7 +135,7 @@ h3 {
     position: relative;
     top: -11px;
     font-size:medium;
-    color: blue;
+    color: darkgreen;
 }
 
 .reviews-for-container {
