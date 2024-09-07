@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
   }  
 
-.movies-container {
+#movies-container {
     background-color: #1f3bd8;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
